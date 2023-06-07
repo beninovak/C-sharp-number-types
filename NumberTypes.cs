@@ -25,12 +25,6 @@ namespace NumberTypes
             stopwatch.Reset();
             stopwatch.Start();
 
-            // Abundant
-            //Console.WriteLine($"Abundant numbers up to 100: {NT.AbundantNumbers(100)}");
-            //Console.WriteLine($"Finding abundant numbers took {(float)stopwatch.ElapsedMilliseconds / 1000} seconds\n");
-            //stopwatch.Reset();
-            //stopwatch.Start();
-
             // Amicable numbers
             Console.WriteLine($"Amicable numbers up to 100000: {NT.AmicableNumbers(100000)}");
             Console.WriteLine($"Amicable numbers took {(float)stopwatch.ElapsedMilliseconds / 1000} seconds\n");
